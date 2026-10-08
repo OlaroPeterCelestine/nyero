@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@source "../*.html";
+@source "../js/*.js";
+
+@theme {
+  --color-scf: #186b9a;
+  --color-scf-dark: #0d6a9c;
+  --color-ink: #212121;
+  --color-body: #444444;
+  --color-gold: #ffb422;
+  --color-gold-deep: #ecb033;
+  --color-gold-soft: #eed08d;
+  --color-amber: #ffa431;
+  --color-cream: #eeebe6;
+  --color-paper: #fff3df;
+  --color-footer: #141414;
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: Merriweather, Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; overflow-x: clip; }
+  body { @apply bg-white font-sans text-base leading-7 text-body; overflow-x: clip; }
+  h1, h2, h3, h4, h5, h6 { @apply font-serif font-bold leading-tight text-ink; }
+  h1 { @apply mb-3 text-4xl; }
+  h2 { @apply mb-4 text-[34px]; }
+  h3 { @apply mb-3 text-2xl; }
+  h4 { @apply mb-2 text-xl; }
+  p { @apply mb-4; }
+  a { @apply text-scf no-underline hover:underline; }
+  img { @apply block max-w-full; }
+  ul { @apply my-4 list-disc pl-6; }
+}

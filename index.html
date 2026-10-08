@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sustainable Communities Fund</title>
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="sticky top-0 z-40 h-[92px] border-b border-neutral-100 bg-white">
+  <div class="mx-auto w-[min(1140px,calc(100%-2.5rem))] flex h-full items-center justify-between gap-6">
+    <a href="index.html"><img class="h-16 w-auto max-lg:h-[52px]" src="assets/logo.png" alt="Sustainable Communities Fund"></a>
+    <button class="nav-toggle hidden h-11 w-11 cursor-pointer border-0 bg-transparent p-2.5 max-lg:block" aria-label="Open menu" type="button">
+      <span class="my-1.5 block h-0.5 bg-neutral-900"></span>
+      <span class="my-1.5 block h-0.5 bg-neutral-900"></span>
+      <span class="my-1.5 block h-0.5 bg-neutral-900"></span>
+    </button>
+    <nav class="nav max-lg:absolute max-lg:inset-x-0 max-lg:top-[92px] max-lg:z-50 max-lg:hidden max-lg:max-h-[calc(100vh-92px)] max-lg:overflow-auto max-lg:border-b max-lg:border-neutral-200 max-lg:bg-white max-lg:shadow-lg max-lg:[&.open]:block" aria-label="Primary">
+      <ul class="m-0 flex list-none items-center gap-1 p-0 max-lg:flex-col max-lg:items-stretch max-lg:py-2">
+        <li><a class="block px-3 py-2.5 text-[15px] font-semibold text-scf no-underline hover:text-scf-dark hover:no-underline text-scf-dark" href="index.html">Home</a></li>
+        <li class="has-sub group relative">
+          <a class="block px-3 py-2.5 text-[15px] font-semibold text-scf no-underline hover:text-scf-dark hover:no-underline after:ml-1.5 after:inline-block after:border-4 after:border-solid after:border-transparent after:border-t-scf after:align-middle" href="mission.html">About</a>
+          <ul class="submenu absolute left-0 top-full z-50 m-0 hidden min-w-[250px] list-none bg-white py-2 shadow-xl group-hover:block group-focus-within:block group-[.open]:block max-lg:static max-lg:min-w-0 max-lg:py-0 max-lg:pl-3 max-lg:shadow-none">
+            <li><a class="block px-3.5 py-2 text-sm font-medium text-neutral-800 no-underline hover:bg-[#f7f5f1] hover:text-scf hover:no-underline" href="mission.html">Mission &amp; Priorities</a></li>
+<li><a class="block px-3.5 py-2 text-sm font-medium text-neutral-800 no-underline hover:bg-[#f7f5f1] hover:text-scf hover:no-underline" href="history.html">History &amp; Founders</a></li>
+<li><a class="block px-3.5 py-2 text-sm font-medium text-neutral-800 no-underline hover:bg-[#f7f5f1] hover:text-scf hover:no-underline" href="board.html">Board &amp; Staff</a></li>
+<li><a class="block px-3.5 py-2 text-sm font-medium text-neutral-800 no-underline hover:bg-[#f7f5f1] hover:text-scf hover:no-underline" href="documents.html">Documents</a></li>
+          </ul>
+        </li>
+        <li class="has-sub group relative">
+          <a class="block px-3 py-2.5 text-[15px] font-semibold text-scf no-underline hover:text-scf-dark hover:no-underline after:ml-1.5 after:inline-block after:border-4 after:border-solid after:border-transparent after:border-t-scf after:align-middle" href="portfolio.html">Our Investments</a>
+          <ul class="submenu absolute left-0 top-full z-50 m-0 hidden min-w-[250px] list-none bg-white py-2 shadow-xl group-hover:block group-focus-within:block group-[.open]:block max-lg:static max-lg:min-w-0 max-lg:py-0 max-lg:pl-3 max-lg:shadow-none">
+            <li><a class="block px-3.5 py-2 text-sm font-medium text-neutral-800 no-underline hover:bg-[#f7f5f1] hover:text-scf hover:no-underline" href="portfolio.html">Portfolio &amp; Investment Partners</a></li>
+<li><a class="block px-3.5 py-2 text-sm font-medium text-neutral-800 no-underline hover:bg-[#f7f5f1] hover:text-scf hover:no-underline" href="investments.html">Our Investments</a></li>
+<li><a class="block px-3.5 py-2 text-sm font-medium text-neutral-800 no-underline hover:bg-[#f7f5f1] hover:text-scf hover:no-underline" href="criteria.html">Investment Criteria</a></li>
+          </ul>
+        </li>
+        <li><a class="block px-3 py-2.5 text-[15px] font-semibold text-scf no-underline hover:text-scf-dark hover:no-underline" href="faq.html">FAQ</a></li>
+        <li><a class="block px-3 py-2.5 text-[15px] font-semibold text-scf no-underline hover:text-scf-dark hover:no-underline" href="support.html">Support SCF</a></li>
+        <li><a class="block px-3 py-2.5 text-[15px] font-semibold text-scf no-underline hover:text-scf-dark hover:no-underline" href="contact.html">Contact Us</a></li>
+        <li><button class="search-open cursor-pointer border-0 bg-transparent px-3 py-2.5 font-sans text-[15px] font-semibold text-scf" type="button" aria-label="Search">Search</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="search-overlay fixed inset-0 z-[80] hidden items-start justify-center bg-black/55 pt-[12vh] [&.open]:flex">
+  <div class="search-box w-[min(560px,calc(100%-2rem))] bg-white p-6">
+    <h3 class="mb-3 font-serif text-2xl text-ink">Search</h3>
+    <input class="w-full border border-[#e1e1e1] bg-white px-3.5 py-3 font-sans text-body" type="search" placeholder="Search pages..." aria-label="Search">
+    <ul class="search-results m-0 mt-3 list-none p-0 [&_a]:block [&_a]:border-b [&_a]:border-neutral-200 [&_a]:py-2 [&_a]:no-underline"></ul>
+  </div>
+</div>
+
+<section class="hero relative h-[640px] overflow-hidden bg-neutral-900 max-lg:h-[860px]" aria-label="SCF Hero Slider">
+  <div class="hero-bg absolute inset-0">
+    <img class="is-active absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-700 [&.is-active]:opacity-100" src="assets/hero-bcl.png" alt="BCL of Texas borrower">
+    <img class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-700 [&.is-active]:opacity-100" src="assets/hero-finca.png" alt="Finca Haiti entrepreneurs">
+    <img class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-700 [&.is-active]:opacity-100" src="assets/hero-grameen.png" alt="Grameen America entrepreneur">
+    <div class="pointer-events-none absolute inset-0 bg-gradient-to-r from-black/30 via-black/10 to-transparent max-lg:bg-gradient-to-b max-lg:from-black/55 max-lg:via-black/40 max-lg:to-transparent"></div>
+  </div>
+  <div class="hero-left absolute inset-y-0 left-0 z-[2] flex w-[62%] flex-col justify-center px-[6vw] text-white max-lg:top-0 max-lg:h-[42%] max-lg:w-full max-lg:justify-end max-lg:px-[22px] max-lg:pb-3 [&_h1]:mb-4 [&_h1]:text-white [&_h1]:[font-size:clamp(32px,4.2vw,54px)] [&_h1]:[text-shadow:0_2px_16px_rgba(0,0,0,.35)] max-lg:[&_h1]:[font-size:clamp(22px,6vw,34px)] [&_p]:m-0 [&_p]:max-w-[640px] [&_p]:text-white [&_p]:[font-size:clamp(16px,1.4vw,22px)] [&_p]:[text-shadow:0_1px_8px_rgba(0,0,0,.35)]">
+    <h1>Investing to Empower<br>People and Communities</h1>
+    <p>SCF invests in mission-aligned projects and organizations that strive to create more inclusive and equitable communities</p>
+  </div>
+  <div class="hero-right absolute inset-y-0 right-0 z-[3] w-[38%] overflow-hidden bg-[rgba(245,170,24,.95)] text-white max-lg:top-auto max-lg:h-[58%] max-lg:w-full">
+    <article class="hero-panel is-active absolute inset-0 flex translate-x-6 flex-col justify-center px-9 py-10 opacity-0 transition duration-500 [&.is-active]:translate-x-0 [&.is-active]:opacity-100 max-lg:px-5 max-lg:py-6 [&_h3]:mb-3 [&_h3]:text-white [&_h3]:[font-size:clamp(22px,2vw,32px)] [&_p]:text-[15.5px] [&_p]:leading-relaxed [&_p]:text-white">
+      <h3>BCL of Texas</h3>
+      <p>SCF invested $350,000 to help BCL launch and grow its Diversity Loan Fund. This fund lends to "growth businesses" operated by underserved and undercapitalized groups—women and minorities. This fund offers borrowers flexible underwriting standards so these entrepreneurs can grow their small business located in Texas. SCF’s funds target to serve earlier-stage businesses to ensure that start-up businesses have the opportunity to grow, despite limited available capital for these borrowers in the market.</p>
+      <a class="mt-2 inline-flex h-[46px] w-fit items-center rounded-3xl border-2 border-white px-5 font-semibold text-white no-underline hover:bg-white hover:text-gold hover:no-underline" href="investments.html#bcl">Learn More</a>
+    </article>
+    <article class="hero-panel absolute inset-0 flex translate-x-6 flex-col justify-center px-9 py-10 opacity-0 transition duration-500 [&.is-active]:translate-x-0 [&.is-active]:opacity-100 max-lg:px-5 max-lg:py-6 [&_h3]:mb-3 [&_h3]:text-white [&_h3]:[font-size:clamp(22px,2vw,32px)] [&_p]:text-[15.5px] [&_p]:leading-relaxed [&_p]:text-white">
+      <h3>Finca Haiti</h3>
+      <p>SCF invested $37,000 to provide microfinance loans to small businesses to support Haiti’s post-2010 earthquake recovery efforts and to address its status as the poorest country in the Western Hemisphere. Loans were issued to individual women entrepreneurs or uniquely to “village banking groups” of up to a dozen women whose loans are tied together. Given Finca Haiti’s average loan sizes of $170, it is estimated that SCF’s capital funded over 215 loans.</p>
+      <a class="mt-2 inline-flex h-[46px] w-fit items-center rounded-3xl border-2 border-white px-5 font-semibold text-white no-underline hover:bg-white hover:text-gold hover:no-underline" href="investments.html#finca">Learn More</a>
+    </article>
+    <article class="hero-panel absolute inset-0 flex translate-x-6 flex-col justify-center px-9 py-10 opacity-0 transition duration-500 [&.is-active]:translate-x-0 [&.is-active]:opacity-100 max-lg:px-5 max-lg:py-6 [&_h3]:mb-3 [&_h3]:text-white [&_h3]:[font-size:clamp(22px,2vw,32px)] [&_p]:text-[15.5px] [&_p]:leading-relaxed [&_p]:text-white">
+      <h3>Grameen America Inc.</h3>
+      <p>SCF invested $350,000 in the Grameen America Social Business Fund (GASBF), Grameen’s first microloan fund created to significantly expand the provision of group loans to low income, female small business owners across the U.S. Through the duration of the Fund’s lifespan, from 2019 through 2022, SCF’s $350K investment supported +$5M in end-user loans disbursed in +1,300 loans, achieving a ~14.5x capital rotation.</p>
+      <a class="mt-2 inline-flex h-[46px] w-fit items-center rounded-3xl border-2 border-white px-5 font-semibold text-white no-underline hover:bg-white hover:text-gold hover:no-underline" href="investments.html#grameen">Learn More</a>
+    </article>
+  </div>
+  <div class="hero-dots absolute bottom-[22px] left-[calc(62%-110px)] z-[4] flex gap-2.5 max-lg:bottom-3 max-lg:left-[22px]">
+    <button class="is-active h-3 w-3 cursor-pointer rounded-full border-2 border-white/80 bg-white/35 p-0 [&.is-active]:border-white [&.is-active]:bg-white" type="button" aria-label="Slide 1"></button>
+    <button class="h-3 w-3 cursor-pointer rounded-full border-2 border-white/80 bg-white/35 p-0 [&.is-active]:border-white [&.is-active]:bg-white" type="button" aria-label="Slide 2"></button>
+    <button class="h-3 w-3 cursor-pointer rounded-full border-2 border-white/80 bg-white/35 p-0 [&.is-active]:border-white [&.is-active]:bg-white" type="button" aria-label="Slide 3"></button>
+  </div>
+</section>
+
+<section class="py-16">
+  <div class="mx-auto w-[min(1140px,calc(100%-2.5rem))] max-w-[860px]">
+    <h2>Sustainable Communities Fund</h2>
+    <p><strong>SCF began its operations as a foundation in 2011. It was born out of a mission-centered economic development company, <a href="history.html">National New Markets Fund</a>.</strong></p>
+    <p><strong>SCF operates as a revolving investment fund to achieve our poverty alleviation mission. Primarily we support <a href="faq.html#inclusion">financial inclusion</a> strategies that are seeking to build more equitable access to capital resources for underserved and low-income communities… <a href="mission.html">Read More</a></strong></p>
+  </div>
+</section>
+
+<section class="pb-16">
+  <div class="mx-auto w-[min(1140px,calc(100%-2.5rem))] text-center">
+    <h2>Mission &amp; Investment Focus</h2>
+    <p class="text-[17px]">SCF’s mission is to alleviate poverty by supporting financial, economic and social inclusion strategies that empower low-income people and strengthen communities.</p>
+    <div class="mt-7 grid grid-cols-4 gap-[22px] max-lg:grid-cols-2 max-sm:grid-cols-1">
+      <article class="text-center [&_img]:mx-auto [&_img]:mb-3.5 [&_img]:h-[110px] [&_img]:w-[110px] [&_img]:rounded-full [&_img]:bg-neutral-200 [&_img]:object-cover [&_h4]:text-[22px] [&_h4]:text-[#333]"><img src="assets/icon-poverty.jpg" alt=""><h4>Alleviate Poverty</h4></article>
+      <article class="text-center [&_img]:mx-auto [&_img]:mb-3.5 [&_img]:h-[110px] [&_img]:w-[110px] [&_img]:rounded-full [&_img]:bg-neutral-200 [&_img]:object-cover [&_h4]:text-[22px] [&_h4]:text-[#333]"><img src="assets/icon-finance.jpg" alt=""><h4>Financial Inclusion</h4></article>
+      <article class="text-center [&_img]:mx-auto [&_img]:mb-3.5 [&_img]:h-[110px] [&_img]:w-[110px] [&_img]:rounded-full [&_img]:bg-neutral-200 [&_img]:object-cover [&_h4]:text-[22px] [&_h4]:text-[#333]"><img src="assets/icon-business.jpg" alt=""><h4>Business Development</h4></article>
+      <article class="text-center [&_img]:mx-auto [&_img]:mb-3.5 [&_img]:h-[110px] [&_img]:w-[110px] [&_img]:rounded-full [&_img]:bg-neutral-200 [&_img]:object-cover [&_h4]:text-[22px] [&_h4]:text-[#333]"><img src="assets/icon-housing.jpg" alt=""><h4>Affordable Housing</h4></article>
+    </div>
+  </div>
+</section>
+
+<section class="pt-2.5 pb-16">
+  <div class="mx-auto w-[min(1140px,calc(100%-2.5rem))]">
+    <h2 class="text-center">Our Unique Priorities</h2>
+    <div class="grid grid-cols-3 gap-2 max-md:grid-cols-1">
+      <article class="flex min-h-[180px] flex-col justify-center bg-gold-soft px-5 py-7 text-center [&_h3]:mb-2.5 [&_h3]:text-[26px] [&_h3]:font-medium [&_h3]:text-[#444] [&_p]:m-0 [&_p]:text-[17px] [&_p]:text-[#444]"><h3>Innovation<br>Capital</h3><p>We seek to fund unique and new models that address poverty</p></article>
+      <article class="flex min-h-[180px] flex-col justify-center bg-gold-deep px-5 py-7 text-center [&_h3]:mb-2.5 [&_h3]:text-[26px] [&_h3]:font-medium [&_h3]:text-[#444] [&_p]:m-0 [&_p]:text-[17px] [&_p]:text-[#444]"><h3>CDFI<br>Certified</h3><p>Certified since 2019, we remain focused on supporting CDFIs and their target communities</p></article>
+      <article class="flex min-h-[180px] flex-col justify-center bg-gold-soft px-5 py-7 text-center [&_h3]:mb-2.5 [&_h3]:text-[26px] [&_h3]:font-medium [&_h3]:text-[#444] [&_p]:m-0 [&_p]:text-[17px] [&_p]:text-[#444]"><h3>Technical<br>Assistance</h3><p>We offer investees needed assistance and resources to succeed</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="pt-5 pb-16">
+  <div class="mx-auto w-[min(1140px,calc(100%-2.5rem))]">
+    <h2>Success Stories</h2>
+    <p>The stories below represent the end-user beneficiaries of SCF’s capital at the organizations we fund.</p>
+    <div class="grid grid-cols-2 gap-[22px] max-md:grid-cols-1">
+      <article class="story group bg-cream px-3 pt-3 pb-[18px] [&_img]:h-[230px] [&_img]:w-full [&_img]:object-cover" id="floodwaters">
+        <img src="assets/story-harvey.png" alt="Chef Yolanda Henry">
+        <div class="px-2.5 pt-3.5 [&_h5]:mb-1.5 [&_h5]:font-sans [&_h5]:text-lg [&_h5]:font-semibold [&_h5]:text-scf [&_h5_a]:text-inherit [&_h5_a]:no-underline [&_h3]:mb-2 [&_h3]:text-2xl [&_p]:mb-0">
+          <h5><a href="investments.html#lift-harvey">Harvey Small Business Recovery Fund</a></h5>
+          <h3>Rising from the Floodwaters</h3>
+          <p>In 2017, Chef Yolanda Henry experienced the devastating force of Hurricane Harvey on her Houston-based business of 15 years—Nuksy’s Fine Catering. Storm flooding destroyed her equipment, inventory and the building’s structure and forced her to stop operations.<span class="ellipsis group-[.is-open]:hidden">… </span><span class="more hidden group-[.is-open]:inline">With LiftFund’s Harvey Small Business Recovery Fund support—offering rapid-response loans with no-interest, 4-month payment forgiveness, and other critical pro-borrower loan features—Chef Yolonda was able to move forward. She relocated her business to a larger venue downtown, expanded it to offer additional services and flexible rental event space, and had plans to hire five more staff members. Only two years after the loan, Chef Yolonda and her growing team are busier than ever, catering larger events and expanding to serve new corporate and government clients. </span><button class="read-more cursor-pointer border-0 bg-transparent p-0 font-sans text-base font-semibold text-scf" data-label="Read More...">Read More...</button></p>
+        </div>
+      </article>
+      <article class="story group bg-cream px-3 pt-3 pb-[18px] [&_img]:h-[230px] [&_img]:w-full [&_img]:object-cover" id="native">
+        <img src="assets/story-native.png" alt="Red Lake grocery project">
+        <div class="px-2.5 pt-3.5 [&_h5]:mb-1.5 [&_h5]:font-sans [&_h5]:text-lg [&_h5]:font-semibold [&_h5]:text-scf [&_h5_a]:text-inherit [&_h5_a]:no-underline [&_h3]:mb-2 [&_h3]:text-2xl [&_p]:mb-0">
+          <h5><a href="investments.html#nab">Native American Bank (NAB)</a></h5>
+          <h3>Strengthen Native Communities</h3>
+          <p>SCF’s funds were used in a $3.7M construction loan by NAB to the Red Lake Band of Chippewa Indians. This facility greatly expanded community resources to the Red Lake Reservation and surrounding community in Northern Minnesota.<span class="ellipsis group-[.is-open]:hidden">… </span><span class="more hidden group-[.is-open]:inline">The project expands an existing grocery store, increasing access to healthy fresh foods and other grocery options. Efficiency upgrades provide substantial long-term energy savings. The facility also has a deli, bakery, coffee shop, laundromat, and an automotive center. This facility’s retail eliminates a 60 mile+ round-trip drive to off-reservation competitor businesses. This project created 45 construction jobs, 20 new permanent jobs, and retains 30 permanent grocery jobs. The Native American Financial Officers Association (NAFOA) awarded Red Lake the 2019 Small Deal of the Year Award. </span><button class="read-more cursor-pointer border-0 bg-transparent p-0 font-sans text-base font-semibold text-scf" data-label="Read More...">Read More...</button></p>
+        </div>
+      </article>
+      <article class="story group bg-cream px-3 pt-3 pb-[18px] [&_img]:h-[230px] [&_img]:w-full [&_img]:object-cover" id="miners">
+        <img src="assets/story-miners.jpg" alt="Appalachian community">
+        <div class="px-2.5 pt-3.5 [&_h5]:mb-1.5 [&_h5]:font-sans [&_h5]:text-lg [&_h5]:font-semibold [&_h5]:text-scf [&_h5_a]:text-inherit [&_h5_a]:no-underline [&_h3]:mb-2 [&_h3]:text-2xl [&_p]:mb-0">
+          <h5><a href="investments.html#fahe">FAHE: Community Loan Fund</a></h5>
+          <h3>A Lifeline for Miners</h3>
+          <p>In summer of 2018, over a thousand miners were suddenly laid off and their last paychecks bounced when Blackjewel LLC declared bankruptcy and shuttered.<span class="ellipsis group-[.is-open]:hidden">… </span><span class="more hidden group-[.is-open]:inline">This impacted miners in three of Fahe’s service states (KY, VA, WV) leaving them jobless and many with overdrawn bank accounts. Fahe acted quickly to finance a revolving line of credit with Redbud Financial Alternatives, a local-serving CDFI based in Hazard, KY. Redbud established the Blackjewel Response Loan Program to offer low-interest loans with no interest accrual for 3 months, for 25 families to cover living expenses, education and employment retraining. </span><button class="read-more cursor-pointer border-0 bg-transparent p-0 font-sans text-base font-semibold text-scf" data-label="Read More...">Read More...</button></p>
+        </div>
+      </article>
+      <article class="story group bg-cream px-3 pt-3 pb-[18px] [&_img]:h-[230px] [&_img]:w-full [&_img]:object-cover" id="ice-cream-dream">
+        <img src="assets/story-herlinda.png" alt="Herlinda in her shop">
+        <div class="px-2.5 pt-3.5 [&_h5]:mb-1.5 [&_h5]:font-sans [&_h5]:text-lg [&_h5]:font-semibold [&_h5]:text-scf [&_h5_a]:text-inherit [&_h5_a]:no-underline [&_h3]:mb-2 [&_h3]:text-2xl [&_p]:mb-0">
+          <h5><a href="investments.html#grameen">Grameen America Inc.</a></h5>
+          <h3>Herlinda’s Ice Cream Dream</h3>
+          <p>Having moved to Indianapolis from Mexico in 2004 and needing an income for her family, Herlinda began making ice cream in her kitchen and serving customers in her living room.<span class="ellipsis group-[.is-open]:hidden">… </span><span class="more hidden group-[.is-open]:inline">Her growing business lacked the tools and space to grow, so she took out her first Grameen microloan of $1,000 in 2014, after being turned away by banks. She used the funds to rent a storefront. Herlinda has now taken out three loans from Grameen, totaling $3,500, to continue to expand her business. Now, her business is thriving and supports six employees. With these microloans, Herlinda has not only built a successful ice cream shop that brings in around $3,000 a week, but she can now support her family and fund her three children’s education. </span><button class="read-more cursor-pointer border-0 bg-transparent p-0 font-sans text-base font-semibold text-scf" data-label="Read More...">Read More...</button></p>
+        </div>
+      </article>
+      <article class="story group bg-cream px-3 pt-3 pb-[18px] [&_img]:h-[230px] [&_img]:w-full [&_img]:object-cover" id="a-crafty-way">
+        <img src="assets/story-finca.png" alt="Nacis and her handicraft shop">
+        <div class="px-2.5 pt-3.5 [&_h5]:mb-1.5 [&_h5]:font-sans [&_h5]:text-lg [&_h5]:font-semibold [&_h5]:text-scf [&_h5_a]:text-inherit [&_h5_a]:no-underline [&_h3]:mb-2 [&_h3]:text-2xl [&_p]:mb-0">
+          <h5><a href="investments.html#finca">Finca Haiti</a></h5>
+          <h3>A Crafty Way to Rebuild</h3>
+          <p>SCF’s investment supported Haiti’s post-2010 earthquake recovery efforts by helping to rebuild small businesses in one of the poorest countries in the Western Hemisphere.<span class="ellipsis group-[.is-open]:hidden">… </span><span class="more hidden group-[.is-open]:inline">Nacis is the owner of a handicraft shop and a member of the artisan cooperative that sells its goods there. Nacis’ early loans from Finca Haiti allowed her to rent and operate a shop of her own rather than having to sell her goods to other shop owners. Nacis’ third micro-loan of $25,000 gourdes ($625 USD) was to purchase the raw materials for ongoing handicraft production. Nacis’ daughters and son, as well as extended family members, are also contributors and beneficiaries of the store. </span><button class="read-more cursor-pointer border-0 bg-transparent p-0 font-sans text-base font-semibold text-scf" data-label="Read More...">Read More...</button></p>
+        </div>
+      </article>
+      <article class="story group bg-cream px-3 pt-3 pb-[18px] [&_img]:h-[230px] [&_img]:w-full [&_img]:object-cover" id="runway">
+        <img src="assets/story-runway.jpg" alt="Piikup delivery van">
+        <div class="px-2.5 pt-3.5 [&_h5]:mb-1.5 [&_h5]:font-sans [&_h5]:text-lg [&_h5]:font-semibold [&_h5]:text-scf [&_h5_a]:text-inherit [&_h5_a]:no-underline [&_h3]:mb-2 [&_h3]:text-2xl [&_p]:mb-0">
+          <h5><a href="investments.html#runway">Self Help: Runway Project Oakland</a></h5>
+          <h3>Soaring with Runway Project</h3>
+          <p>April didn’t dream of being an entrepreneur, but after developing severe scoliosis and having a past conviction (though expunged) she became one out of necessity.<span class="ellipsis group-[.is-open]:hidden">… </span><span class="more hidden group-[.is-open]:inline">April started Piikup, a business-to-business delivery service targeting food and retail businesses in the San Francisco East Bay I-80 corridor. Runway Project Oakland, a business incubator program for African Americans, issued April a $20,000 loan to buy her first van. Loans use flexible underwriting, are collateral-free and have interest-only payments during startup. Piikup won the 2017 Social Changemaker award at the Oakland Indie Awards. </span><button class="read-more cursor-pointer border-0 bg-transparent p-0 font-sans text-base font-semibold text-scf" data-label="Read More...">Read More...</button></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#faf8f5] py-16">
+  <div class="mx-auto w-[min(1140px,calc(100%-2.5rem))]">
+    <h2 class="text-center">Investee Testimonials</h2>
+    <article class="testimonial mx-auto max-w-3xl text-center [&_img]:mx-auto [&_img]:mb-[18px] [&_img]:h-[120px] [&_img]:w-[120px] [&_img]:rounded-full [&_img]:border-8 [&_img]:border-white [&_img]:object-cover [&_img]:shadow-md [&_h3]:text-[22px] [&_blockquote]:m-0 [&_blockquote]:text-[17px] [&_blockquote]:text-neutral-800">
+      <img src="assets/t-runway.jpg" alt="Runway Project">
+      <h3>SHFCU- Runway Project Oakland</h3>
+      <blockquote>"We were impressed with how quickly SCF was able to provide us with the funds we needed for our pilot lending program. Our ability to provide these early-stage African American entrepreneurs with access to capital is central to our mission of reducing the racial wealth gap and creating economic opportunity for all."</blockquote>
+    </article>
+    <article class="testimonial mx-auto max-w-3xl text-center [&_img]:mx-auto [&_img]:mb-[18px] [&_img]:h-[120px] [&_img]:w-[120px] [&_img]:rounded-full [&_img]:border-8 [&_img]:border-white [&_img]:object-cover [&_img]:shadow-md [&_h3]:text-[22px] [&_blockquote]:m-0 [&_blockquote]:text-[17px] [&_blockquote]:text-neutral-800" hidden>
+      <img src="assets/t-grameen.jpg" alt="Grameen">
+      <h3>David Gough CFO, Grameen</h3>
+      <blockquote>"As an investor in Grameen’s first investment fund, SCF continues to be a strong partner by providing us with valuable information, resources, and relationships in order to support us in expanding our programs to serve low-income women entrepreneurs."</blockquote>
+    </article>
+    <article class="testimonial mx-auto max-w-3xl text-center [&_img]:mx-auto [&_img]:mb-[18px] [&_img]:h-[120px] [&_img]:w-[120px] [&_img]:rounded-full [&_img]:border-8 [&_img]:border-white [&_img]:object-cover [&_img]:shadow-md [&_h3]:text-[22px] [&_blockquote]:m-0 [&_blockquote]:text-[17px] [&_blockquote]:text-neutral-800" hidden>
+      <img src="assets/t-lift.jpg" alt="LiftFund">
+      <h3>Janie Barerra, President &amp; CEO, LiftFund</h3>
+      <blockquote>"For a decade, SCF has shown that it is willing to take risks with us by supporting new higher risk lending activities and programs. Their patient capital has been responsive to our changing needs and direction over time and—they have been true partners to us."</blockquote>
+    </article>
+    <article class="testimonial mx-auto max-w-3xl text-center [&_img]:mx-auto [&_img]:mb-[18px] [&_img]:h-[120px] [&_img]:w-[120px] [&_img]:rounded-full [&_img]:border-8 [&_img]:border-white [&_img]:object-cover [&_img]:shadow-md [&_h3]:text-[22px] [&_blockquote]:m-0 [&_blockquote]:text-[17px] [&_blockquote]:text-neutral-800" hidden>
+      <img src="assets/t-mercy.jpg" alt="Mercy Corps Northwest">
+      <h3>Mercy Corps North West</h3>
+      <blockquote>“As a small loan fund operator, MCNW views SCF as an excellent partner. SCF has provided us with the flexible capital we needed. They have also been patient as we made needed adjustments to our loan products in order to better address the needs of the most underserved.”</blockquote>
+    </article>
+    <div class="t-nav mt-[18px] flex justify-center gap-2">
+      <button class="is-active h-2.5 w-2.5 cursor-pointer rounded-full border-0 bg-neutral-300 p-0 [&.is-active]:bg-amber" type="button" aria-label="Testimonial 1"></button>
+      <button class="h-2.5 w-2.5 cursor-pointer rounded-full border-0 bg-neutral-300 p-0 [&.is-active]:bg-amber" type="button" aria-label="Testimonial 2"></button>
+      <button class="h-2.5 w-2.5 cursor-pointer rounded-full border-0 bg-neutral-300 p-0 [&.is-active]:bg-amber" type="button" aria-label="Testimonial 3"></button>
+      <button class="h-2.5 w-2.5 cursor-pointer rounded-full border-0 bg-neutral-300 p-0 [&.is-active]:bg-amber" type="button" aria-label="Testimonial 4"></button>
+    </div>
+  </div>
+</section>
+
+<section class="bg-amber px-5 py-8 pb-10 text-center text-white">
+  <h4 class="m-0 text-[22px] font-medium text-white">Ready to make an impact with SCF? <a class="ml-4 inline-block rounded-full border-2 border-white px-5 py-2 font-sans text-base font-semibold text-white no-underline hover:bg-white hover:text-amber hover:no-underline max-sm:ml-0 max-sm:mt-3" href="support.html">Start Here!</a></h4>
+  <p class="mx-auto mt-3 mb-0 max-w-3xl text-white">To alleviate poverty by supporting financial, economic and social inclusion strategies that empower low-income people and strengthen communities.</p>
+</section>
+<footer class="bg-footer px-0 pt-12 pb-5 text-neutral-300">
+  <div class="mx-auto w-[min(1140px,calc(100%-2.5rem))]">
+    <div class="grid grid-cols-[1.1fr_1.3fr_.9fr] gap-8 max-lg:grid-cols-1">
+      <div>
+        <img class="h-16 w-auto rounded bg-white px-2.5 py-2" src="assets/logo.png" alt="Sustainable Communities Fund">
+      </div>
+      <ul class="m-0 list-none columns-2 p-0 [&_a]:inline-block [&_a]:py-1 [&_a]:text-sm [&_a]:text-white [&_a]:no-underline hover:[&_a]:underline">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mission.html">About Us</a></li>
+        <li><a href="portfolio.html">Portfolio &amp; Investment Partners</a></li>
+        <li><a href="investments.html">Our Investments</a></li>
+        <li><a href="criteria.html">Investment Criteria</a></li>
+        <li><a href="support.html">Support SCF</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+      <div class="[&_h6]:mb-1.5 [&_h6]:font-sans [&_h6]:text-[13px] [&_h6]:font-semibold [&_h6]:uppercase [&_h6]:tracking-wider [&_h6]:text-gold">
+        <h6>Call us</h6>
+        <p class="mb-4 font-serif text-base font-bold text-white"><a class="text-white no-underline hover:underline" href="tel:3109145333">310-914-5333</a></p>
+        <h6>Visit us</h6>
+        <p class="mb-4 font-serif text-base font-bold text-white">1281 Westwood Blvd. Suite 200<br>Los Angeles, CA 90024</p>
+      </div>
+    </div>
+    <p class="mt-7 mb-0 border-t border-neutral-800 pt-4 text-[13px] text-neutral-400">&copy; 2025 Sustainable Communities Fund. All Rights Reserved</p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
