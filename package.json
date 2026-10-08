@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build:css": "tailwindcss -i css/input.css -o css/styles.css --minify"
+    "build:css": "tailwindcss -i css/input.css -o css/styles.css --minify",
+    "build": "npm run build:css && rm -rf public && mkdir -p public && cp -R *.html css js assets public/"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",
